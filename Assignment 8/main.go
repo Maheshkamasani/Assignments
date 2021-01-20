@@ -26,7 +26,7 @@ func allUsers(w http.ResponseWriter, r *http.Request) {
 
 	var users []User
 	db.Find(&users)
-	fmt.Println("{balakrishna reddy}", users)
+	fmt.Println("{Maheswar Reddy}", users)
 
 	json.NewEncoder(w).Encode(users)
 }
